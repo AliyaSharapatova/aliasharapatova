@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Портфолио</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style/style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar" id="navbar">
+            <h1 class="logo"><a href="index.html">Портфолио</a></h1>
+            <ul class="menu">
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="about_me.html">Обо мне</a></li>
+            </ul>
+            <div class="burger" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+    <div class="main">
+        <div class="about_univercity">
+            <img src="images/iitu.jpg" alt="">
+            <h3>Универская жизнь</h3>
+            <p id="typing-text3"></p>
+        </div>
+        <section class="skills">
+            <h2>Мои навыки <br> Hard skills</h2>
+            <div class="skills-container">
+                <div class="skill">
+                    <i class="fas fa-code"></i>
+                    <p class="skill-name">HTML/CSS</p>
+                </div>
+                <div class="skill">
+                    <i class="fab fa-js"></i>
+                    <p class="skill-name">JavaScript</p>
+                </div>
+                <div class="skill">
+                    <i class="fab fa-react"></i>
+                    <p class="skill-name">React</p>
+                </div>
+                <div class="skill">
+                    <i class="fas fa-database"></i>
+                    <p class="skill-name">SQL</p>
+                </div>
+                <div class="skill">
+                    <i class="fas fa-server"></i>
+                    <p class="skill-name">Node.js</p>
+                </div>
+                <div class="skill">
+                    <i class="fab fa-cuttlefish"></i>
+                    <p class="skill-name">C++</p>
+                </div>
+            </div>
+            <br><br><br><br>
+            <h2>Soft skills</h2>
+            <div class="skills-container">
+                <div class="skill">
+                    <i class="fas fa-comments"></i>
+                    <p class="skill-name">Коммуникабельность</p>
+                </div>
+                <div class="skill">
+                    <i class="fas fa-smile"></i>
+                    <p class="skill-name">Дружелюбие</p>
+                </div>
+                <div class="skill">
+                    <i class="fas fa-tasks"></i>
+                    <p class="skill-name">Трудолюбивость</p>
+                </div>
+            </div>
+        </section>
+
+    </div>
+    <footer>
+        <div class="footer-content">
+            <h3>Контактные данные</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vitae felis scelerisque, gravida sapien
+                non, cursus augue. Aenean id pretium turpis. Suspendisse eros nunc, sollicitudin nec.</p>
+            <ul class="socials">
+                <li><a target="_blank" href="https://instagram.com/sharapatovaalia?igshid=YmMyMTA2M2Y="><i
+                            class="fa-brands fa-instagram"></i></a></li>
+                <li><a target="_blank" href="https://t.me/alliwahnu"><i class="fa-brands fa-telegram"></i></a></li>
+                <li><a target="_blank" href="tel:+77757934970"><i class="fa-solid fa-phone"></i></i></a></li>
+            </ul>
+        </div>
+        <div class="footer-bottom">
+            <p>Copyright:<span id="year"></span> <a href="#">@coding</a> </p>
+            <div class="footer-menu">
+                <ul class="f-menu">
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="about_me.html">Обо мне</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <script src="script/script2.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,375 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+    background-color: #E5E3E4;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo a {
+    text-decoration: none;
+    color: #000;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.logo a:hover {
+    transition: 0.5s;
+    color: #27bcda;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+    margin-left: 30px;
+    transition: 0.5s;
+}
+
+.menu li a:hover {
+    color: #27bcda;
+    transition: 0.5s;
+}
+
+.burger {
+    display: none;
+    cursor: pointer;
+}
+
+.burger span {
+    display: block;
+    width: 30px;
+    height: 3px;
+    margin: 5px 0;
+    background-color: #000;
+    transition: all 0.3s ease-in-out;
+}
+
+main {
+    padding-top: 5%;
+    display: flex;
+    height: 100vh;
+    background: linear-gradient(to bottom, #E5E3E4, #9a9a9a);
+    justify-content: space-around;
+    padding-bottom: 40px;
+}
+
+.about_me {
+    width: 30%;
+    text-align: start;
+}
+
+.about_me h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 2.3em;
+}
+
+.about_me p {
+    font-size: 24px;
+}
+
+main .main_photo {
+    text-align: center;
+}
+
+.main_photo img {
+    margin-top: 15px;
+    width: 300px;
+    border-radius: 15px;
+    transition: 0.5s;
+}
+
+.main_photo img:hover {
+    transform: scale(1.2);
+}
+
+footer {
+    background: #111;
+    height: auto;
+    width: 100%;
+    padding-top: 40px;
+    color: #fff;
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer-content h3 {
+    font-size: 2.1rem;
+    font-weight: 500;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+
+.footer-content p {
+    max-width: 400px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+    color: #cacdd2;
+}
+
+.socials {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+
+.socials li {
+    margin: 0 10px;
+}
+
+.socials a {
+    text-decoration: none;
+    color: #fff;
+    padding: 5px;
+}
+
+.socials a i {
+    font-size: 1.1rem;
+    width: 20px;
+    transition: color 0.4s ease;
+}
+
+.socials a:hover i {
+    color: aqua;
+    transition: 0.5s;
+}
+
+.footer-bottom {
+    background: #000;
+    width: 100%;
+    padding: 20px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+.footer-bottom p {
+    float: left;
+    font-size: 14px;
+    word-spacing: 2px;
+}
+
+.footer-bottom p a {
+    color: #ccc;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.footer-bottom span {
+    text-transform: uppercase;
+}
+
+.footer-menu {
+    float: right;
+}
+
+.footer-menu ul {
+    display: flex;
+}
+
+.footer-menu ul li {
+    padding-right: 10px;
+    display: block;
+}
+
+.footer-menu ul li a {
+    color: #cfd2d6;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.footer-menu ul li a:hover {
+    color: #27bcda;
+    transition: 0.5s;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px;
+}
+
+.about_univercity {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about_univercity img {
+    width: 600px;
+}
+
+.about_univercity h3 {
+    font-size: 2.3em;
+}
+
+.about_univercity p {
+    padding: 70px 0;
+    font-size: 1.2em;
+    width: 70%;
+}
+
+.skills {
+    background-color: #f2f2f2;
+    padding: 50px;
+    text-align: center;
+}
+
+.skills-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.skill {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    width: 150px;
+    height: 150px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease;
+}
+
+.skill:hover {
+    background-color: #27bcda;
+    transform: translateY(-10px);
+    box-shadow: 10px 55px 50px rgba(0, 225, 255, 0.525);
+}
+
+.skill i {
+    font-size: 40px;
+    margin-top: 20px;
+}
+
+.skill p {
+    font-size: 15px;
+}
+
+.skill-name {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Адаптивная навигационная панель для мобильных устройств */
+@media only screen and (max-width: 768px) {
+    .menu {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 70px;
+        left: 0;
+        width: 100%;
+        background-color: #fff;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+        z-index: 1;
+    }
+
+    .menu li {
+        margin: 10px 0;
+        text-align: center;
+    }
+
+    .burger {
+        display: block;
+    }
+
+    .navbar.active .burger span:nth-child(1) {
+        transform: rotate(45deg) translate(5px, 5px);
+    }
+
+    .navbar.active .burger span:nth-child(2) {
+        opacity: 0;
+    }
+
+    .navbar.active .burger span:nth-child(3) {
+        transform: rotate(-45deg) translate(5px, -5px);
+    }
+
+    .navbar.active .menu {
+        display: flex;
+    }
+
+    .menu li {
+        margin-bottom: 20px;
+    }
+
+    .menu li a {
+        font-size: 24px;
+    }
+
+    .about_me {
+        width: 70%;
+        text-align: justify;
+    }
+
+    .about_me h2 {
+        text-align: center;
+        margin-bottom: 40px;
+        font-size: 2em;
+    }
+
+    .about_me p {
+        font-size: 22px;
+    }
+
+    main {
+        flex-direction: column;
+        align-items: center;
+        height: 100%;
+    }
+
+    .footer-bottom p {
+        float: none;
+    }
+
+    .footer-menu ul {
+        display: flex;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .main {
+        padding-top: 10px;
+    }
+
+    .about_univercity img {
+        width: 300px;
+    }
+
+    .skills-container {
+        justify-content: center;
+    }
+}
